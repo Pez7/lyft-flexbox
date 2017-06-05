@@ -1,0 +1,36 @@
+body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #76278f;
+}
+#bar.flex-container{
+	justify-content: flex-end;
+    align-items: center;
+    height: 113px;
+    width: 1663px;
+    position: fixed;
+}
+#bar img{
+	height: 45px;
+    width: 64px;
+    margin-right: auto;
+    margin-left: 80px;
+    margin-top: 14px;	
+}
+#bar a{
+	display: inline-block;
+    margin-left: 9px;
+    margin-top: 10px;
+    padding: 8px 18px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.bordes{
+	border: 1px solid white;
+    border-radius: 14%;	
+}
+#bar a:hover{
+	color: #FF00BF;
+}
