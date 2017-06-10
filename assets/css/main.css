@@ -22,6 +22,9 @@
     justify-content: stretch;
     padding:49px 64px 16px 64px;
 }
+.oculto{
+    display: none;
+}
 .enlace{
     color: white;
     text-decoration: none;
@@ -186,6 +189,7 @@ header video{
 }
 .img-media{
     margin-top: 50px;
+    flex-direction: column;
 }
 .img-media img{
     width: 135px;
