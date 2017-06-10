@@ -134,3 +134,24 @@ header video{
     font-size: 16px;
     line-height: 24px;
 }
+.second{
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+}
+.txt-uno{
+    height: 441px;
+    padding: 48px;
+}
+.txt-uno h1{
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    color: rgb(51, 52, 71);
+    font-weight:600;
+}
+.txt-uno p{
+    margin-top: 27px;
+}
+.second iframe{
+    width:195%;
+}
