@@ -2,11 +2,12 @@
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 .bar{
     justify-content: space-between;
     width: 100%;
+    height: 113px;
     position: fixed;
     z-index: 1;
 }
@@ -15,11 +16,11 @@
     width: 64px;
     margin-right: auto;
     margin-left: 80px;
-    margin-top: 14px;
+    margin-top: 39px;
 }
 .lista{
     justify-content: stretch;
-    padding:31px 64px 16px 64px;
+    padding:49px 64px 16px 64px;
 }
 .enlace{
     color: white;
@@ -34,4 +35,76 @@
 .borde{
     border: 1px solid white;
     border-radius: 8px;
+}
+.caja{
+    position: absolute;
+    background-color: white;
+    width: 562px;
+    height: 419px;
+    top: 115px;
+    right: 0px;
+}
+#turn{
+    color: rgb(53, 35, 132);
+    font-size: 40px;
+    line-height: 1;
+    font-weight: 600;
+    margin-left: 65px;
+    margin-top: 62px;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+#sign{
+    color: rgb(53, 35, 132);
+    margin-left: 65px;
+    height: 36px;
+    margin-top: 12px;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+input {
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    margin-left: 65px;
+    display: block;
+    width: 427px;
+    border: none;
+    border-bottom: 1px solid #757575;
+}
+#boton{
+    background-color: #ff00bf;
+    font-weight: 400;
+    height: 48px;
+    width: 182px;
+    font-size: 16px;
+    border-radius: 8px;
+    color: white;
+    margin-left: 65px;
+    margin-top: 10px;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+#ride{
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    color:#BABABA;
+    margin-left: 12px;
+}
+#ride:hover{
+    color: #ff00bf;
+}
+#applied{
+    position: relative;
+    top: 31px;
+}
+#earn{
+    position: relative;
+    top: 31px;
+}
+.caja p{
+    margin-left: 65px;
+    margin-top: 12px;
+    font-size: 9px;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    color: lightslategray;
+}
+header video{
+    height: 100%;
+    width: 100%;
 }
