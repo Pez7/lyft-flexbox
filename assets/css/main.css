@@ -108,3 +108,29 @@ header video{
     height: 100%;
     width: 100%;
 }
+.first-section{
+    background-color: rgb(115, 37, 141);
+    color:white;
+    padding:64px 96px;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+.cajita{
+    padding-left: 67px;
+    height: 125px;
+}
+.first-section img{
+    max-height: 480px;
+    height: 100%;
+    position: relative;
+    left: 0px;
+}
+.contenedor-izq h1{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.contenedor-izq p{
+    font-size: 16px;
+    line-height: 24px;
+}
